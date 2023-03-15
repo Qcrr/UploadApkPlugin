@@ -9,6 +9,7 @@ import org.gradle.api.Project;
  * 发送到钉钉的消息参数
  */
 public class SendDingParams {
+    public String test;
 
     public String accessToken;
     public String contentText;
