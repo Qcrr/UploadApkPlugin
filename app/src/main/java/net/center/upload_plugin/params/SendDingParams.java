@@ -9,7 +9,7 @@ import org.gradle.api.Project;
  * 发送到钉钉的消息参数
  */
 public class SendDingParams {
-    public String test;
+    public String atMobiles;//需要@人的手机号用,分隔
 
     public String accessToken;
     public String contentText;
